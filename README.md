@@ -24,9 +24,46 @@ Game edukasi mitigasi gempa bumi sederhana berbasis Unity URP untuk simulasi eva
 - Gempa (12 detik): Gempa mulai berguncang. Pilih opsi mitigasi pada pop-up pertanyaan, lalu segera berlindung di bawah meja (tekan C).
 - Evakuasi: Setelah gempa reda, segera lari keluar rumah ke area hijau di halaman (titik kumpul) untuk menyelesaikan level.
 
-## Struktur File Penting
-- `Assets/_Project/Scripts/Core`: GameManager, GameEvents, Singleton.
-- `Assets/_Project/Scripts/Gameplay`: PlayerController, EarthquakeController, CoverZone, SafeZone.
-- `Assets/_Project/Scripts/UI`: UIManager (tutorial, HUD timer, pilihan keputusan, debrief).
-- `Assets/_Project/Scripts/Editor`: Level1GreyboxBuilder (script untuk generate layout level).
-- `Assets/Scenes`: SampleScene.unity (scene utama permainan).
+## Struktur Folder dan File (Sesuai GDD)
+```text
+Siaga Bencana/
+├── Assets/
+│   ├── _Project/
+│   │   ├── Art/
+│   │   │   ├── Animations/
+│   │   │   ├── Materials/               # Material lantai, dinding, meja, dan perabot
+│   │   │   ├── Models/
+│   │   │   ├── Textures/
+│   │   │   ├── UI/
+│   │   │   └── VFX/
+│   │   ├── Audio/
+│   │   │   ├── Ambience/
+│   │   │   ├── Music/
+│   │   │   └── SFX/
+│   │   ├── Prefabs/
+│   │   │   ├── Disaster/
+│   │   │   ├── Environment/
+│   │   │   ├── NPC/
+│   │   │   ├── Player/
+│   │   │   └── UI/
+│   │   ├── Scenes/
+│   │   │   └── Levels/
+│   │   ├── ScriptableObjects/
+│   │   ├── Scripts/
+│   │   │   ├── Audio/
+│   │   │   ├── Core/                    # GameManager, GameEvents, GameEnums, Singleton
+│   │   │   ├── Data/                    # Model data dan konfigurasi
+│   │   │   ├── Editor/                  # Level1GreyboxBuilder (generator level 1)
+│   │   │   ├── Gameplay/                # PlayerController, EarthquakeController, CoverZone, SafeZone
+│   │   │   ├── UI/                      # UIManager (tutorial, HUD timer, dialog keputusan, debrief)
+│   │   │   └── Utils/
+│   │   └── Settings/                    # Konfigurasi URP dan render pipeline
+│   └── Scenes/
+│       └── SampleScene.unity            # Scene utama yang dijalankan saat ini
+├── Packages/                            # Package dependency Unity (Input System, TMP, URP)
+├── ProjectSettings/                     # Pengaturan engine Unity
+├── .gitattributes
+├── .gitignore
+├── .vsconfig
+└── README.md
+```
