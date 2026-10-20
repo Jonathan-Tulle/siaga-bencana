@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 304e4d05d26b967468a8e4760f97c2fc, type: 3}
+  m_Name: D1_GempaMulai
+  m_EditorClassIdentifier: SiagaBencana.Gameplay::SiagaBencana.Gameplay.DecisionData
+  decisionId: D1_GempaMulai
+  situationText: Guncangan gempa bumi tiba-tiba terasa keras! Apa tindakan pertamamu?
+  choices:
+  - choiceText: Merunduk dan berlindung di bawah meja kokoh (Drop, Cover, Hold On)
+    feedbackText: Tindakan Tepat! Berlindung di bawah meja kokoh melindungi kepala
+      dan organ vital dari runtuhan.
+    isCorrect: 1
+    scoreModifier: 50
+    hpModifier: 0
+    panicModifier: 0
+  - choiceText: Segera lari keluar rumah menerobos guncangan
+    feedbackText: Kurang Tepat! Lari saat gempa aktif berisiko tinggi terjatuh atau
+      tertimpa genteng/kaca yang jatuh di ambang pintu.
+    isCorrect: 0
+    scoreModifier: -30
+    hpModifier: -15
+    panicModifier: 20
+  - choiceText: Berdiri diam di ambang pintu
+    feedbackText: Kurang Tepat! Pintu modern tidak dirancang menahan beban runtuhan
+      bangunan.
+    isCorrect: 0
+    scoreModifier: -20
+    hpModifier: 0
+    panicModifier: 0
+  timeLimit: 8
+  slowMotionScale: 0.3

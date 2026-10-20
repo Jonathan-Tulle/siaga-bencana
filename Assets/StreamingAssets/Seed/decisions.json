@@ -1,0 +1,75 @@
+[
+  {
+    "decisionId": "D1_GempaMulai",
+    "levelId": 1,
+    "scenarioText": "Guncangan gempa bumi tiba-tiba terasa keras! Apa tindakan pertamamu?",
+    "timeLimitSec": 8,
+    "options": [
+      {
+        "optionText": "Merunduk dan berlindung di bawah meja kokoh (Drop, Cover, Hold On)",
+        "isCorrect": true,
+        "scoreEffect": 50,
+        "hpEffect": 0,
+        "feedbackText": "Tindakan Tepat! Berlindung di bawah meja kokoh melindungi kepala dan organ vital dari runtuhan."
+      },
+      {
+        "optionText": "Segera lari keluar rumah menerobos guncangan",
+        "isCorrect": false,
+        "scoreEffect": -30,
+        "hpEffect": -15,
+        "feedbackText": "Kurang Tepat! Lari saat gempa aktif berisiko tinggi terjatuh atau tertimpa material yang jatuh dari atap."
+      },
+      {
+        "optionText": "Berdiri diam di ambang pintu",
+        "isCorrect": false,
+        "scoreEffect": -20,
+        "hpEffect": 0,
+        "feedbackText": "Kurang Tepat! Pintu rumah modern tidak dirancang menahan beban runtuhan bangunan."
+      }
+    ]
+  },
+  {
+    "decisionId": "D2_MatikanListrik",
+    "levelId": 1,
+    "scenarioText": "Guncangan gempa mereda sementara. Sebelum melangkah keluar pintu, apa yang kamu lakukan?",
+    "timeLimitSec": 8,
+    "options": [
+      {
+        "optionText": "Matikan MCB listrik dan kompor gas terlebih dahulu",
+        "isCorrect": true,
+        "scoreEffect": 40,
+        "hpEffect": 0,
+        "feedbackText": "Sangat Tepat! Mematikan saklar listrik dan gas mencegah bahaya kebakaran pasca-gempa."
+      },
+      {
+        "optionText": "Langsung lari keluar tanpa memeriksa apapun",
+        "isCorrect": false,
+        "scoreEffect": -20,
+        "hpEffect": 0,
+        "feedbackText": "Kurang Tepat! Kabel listrik yang putus atau kompor yang menyala dapat memicu ledakan/kebakaran."
+      }
+    ]
+  },
+  {
+    "decisionId": "D3_TolongAdik",
+    "levelId": 1,
+    "scenarioText": "Adikmu yang panik masih berada di kamarnya. Waktu evakuasi terus berjalan!",
+    "timeLimitSec": 8,
+    "options": [
+      {
+        "optionText": "Gandeng tangan adik dan evakuasi bersama ke titik kumpul",
+        "isCorrect": true,
+        "scoreEffect": 50,
+        "hpEffect": 0,
+        "feedbackText": "Mulia dan Tepat! Prosedur mitigasi BNPB selalu memprioritaskan keselamatan anak-anak dan kelompok rentan."
+      },
+      {
+        "optionText": "Kembali ke kamar untuk mengambil barang berharga dan TV",
+        "isCorrect": false,
+        "scoreEffect": -50,
+        "hpEffect": -20,
+        "feedbackText": "Sangat Keliru! Harta benda dapat diganti, nyawa manusia tidak. Menunda evakuasi mengancam keselamatan."
+      }
+    ]
+  }
+]

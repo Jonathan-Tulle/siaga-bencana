@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 304e4d05d26b967468a8e4760f97c2fc, type: 3}
+  m_Name: D3_TolongAdik
+  m_EditorClassIdentifier: SiagaBencana.Gameplay::SiagaBencana.Gameplay.DecisionData
+  decisionId: D3_TolongAdik
+  situationText: Adikmu yang panik masih berada di kamarnya. Waktu evakuasi terus
+    berjalan!
+  choices:
+  - choiceText: Gandeng tangan adik dan evakuasi bersama ke titik kumpul
+    feedbackText: Mulia dan Tepat! Prosedur mitigasi mengutamakan keselamatan anak-anak
+      dan kelompok rentan.
+    isCorrect: 1
+    scoreModifier: 50
+    hpModifier: 0
+    panicModifier: 0
+  - choiceText: Kembali ke kamar untuk mengambil TV dan perhiasan
+    feedbackText: Sangat Keliru! Harta benda dapat diganti, nyawa manusia tidak.
+      Menunda evakuasi membahayakan diri.
+    isCorrect: 0
+    scoreModifier: -50
+    hpModifier: -20
+    panicModifier: 0
+  timeLimit: 8
+  slowMotionScale: 0.3

@@ -1,0 +1,14 @@
+{
+    "name": "SiagaBencana.Data",
+    "rootNamespace": "SiagaBencana.Data",
+    "references": ["SiagaBencana.Core"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

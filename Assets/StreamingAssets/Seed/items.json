@@ -1,0 +1,90 @@
+[
+  {
+    "itemId": "item_air_minum",
+    "name": "Air Minum",
+    "weight": 2,
+    "category": "esensial",
+    "scoreValue": 10,
+    "educationalNote": "Kebutuhan dasar bertahan hidup minimal 3 hari."
+  },
+  {
+    "itemId": "item_senter",
+    "name": "Senter",
+    "weight": 1,
+    "category": "esensial",
+    "scoreValue": 10,
+    "educationalNote": "Penerangan darurat saat instalasi listrik terputus."
+  },
+  {
+    "itemId": "item_p3k",
+    "name": "Kotak P3K",
+    "weight": 2,
+    "category": "esensial",
+    "scoreValue": 10,
+    "educationalNote": "Pertolongan pertama untuk luka gores dan fraktur ringan."
+  },
+  {
+    "itemId": "item_peluit",
+    "name": "Peluit",
+    "weight": 1,
+    "category": "esensial",
+    "scoreValue": 8,
+    "educationalNote": "Memberi sinyal darurat kepada tim SAR saat terjebak reruntuhan tanpa menguras suara."
+  },
+  {
+    "itemId": "item_radio",
+    "name": "Radio Portabel",
+    "weight": 1,
+    "category": "esensial",
+    "scoreValue": 8,
+    "educationalNote": "Memperoleh informasi resmi dari BMKG/BNPB saat jaringan internet dan seluler mati."
+  },
+  {
+    "itemId": "item_masker_n95",
+    "name": "Masker N95",
+    "weight": 1,
+    "category": "berguna",
+    "scoreValue": 6,
+    "educationalNote": "Melindungi saluran pernapasan dari debu runtuhan atau abu vulkanik."
+  },
+  {
+    "itemId": "item_powerbank",
+    "name": "Powerbank",
+    "weight": 1,
+    "category": "berguna",
+    "scoreValue": 5,
+    "educationalNote": "Menjaga daya ponsel untuk komunikasi darurat."
+  },
+  {
+    "itemId": "item_dokumen",
+    "name": "Dokumen Penting (Kedap Air)",
+    "weight": 1,
+    "category": "berguna",
+    "scoreValue": 5,
+    "educationalNote": "Mempermudah pendataan identitas dan pemulihan administrasi pascabencana."
+  },
+  {
+    "itemId": "item_tv_kecil",
+    "name": "TV Kecil",
+    "weight": 4,
+    "category": "pengecoh",
+    "scoreValue": -8,
+    "educationalNote": "Berat dan tidak berguna saat evakuasi. Memperlambat langkah dan mengancam keselamatan."
+  },
+  {
+    "itemId": "item_laptop",
+    "name": "Laptop",
+    "weight": 3,
+    "category": "pengecoh",
+    "scoreValue": -5,
+    "educationalNote": "Menambah beban berlebih. Data digital seharusnya sudah dicadangkan secara online."
+  },
+  {
+    "itemId": "item_koper_besar",
+    "name": "Koper Pakaian Besar",
+    "weight": 5,
+    "category": "pengecoh",
+    "scoreValue": -8,
+    "educationalNote": "Sangat menghambat mobilitas di tangga atau gang sempit."
+  }
+]

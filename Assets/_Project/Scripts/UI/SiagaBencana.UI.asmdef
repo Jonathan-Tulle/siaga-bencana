@@ -1,0 +1,21 @@
+{
+    "name": "SiagaBencana.UI",
+    "rootNamespace": "SiagaBencana.UI",
+    "references": [
+        "SiagaBencana.Core",
+        "SiagaBencana.Data",
+        "SiagaBencana.Gameplay",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "levelId": 1,
+    "chapterNo": 1,
+    "levelNo": 1,
+    "disasterName": "Gempa Bumi",
+    "name": "Rumah Sendiri (Tutorial)",
+    "timeLimitSec": 120,
+    "difficulty": 1,
+    "focus": "Gerak dasar; Drop, Cover, Hold On; mematikan listrik/gas; tas siaga"
+  },
+  {
+    "levelId": 2,
+    "chapterNo": 1,
+    "levelNo": 2,
+    "disasterName": "Gempa Bumi",
+    "name": "Ruang Kelas",
+    "timeLimitSec": 150,
+    "difficulty": 2,
+    "focus": "Berlindung di bawah meja; evakuasi tertib; menolong teman"
+  },
+  {
+    "levelId": 3,
+    "chapterNo": 1,
+    "levelNo": 3,
+    "disasterName": "Gempa Bumi",
+    "name": "Pusat Perbelanjaan",
+    "timeLimitSec": 180,
+    "difficulty": 3,
+    "focus": "Kerumunan massa; menjauhi etalase kaca & rak tinggi; mencari rambu jalur evakuasi"
+  },
+  {
+    "levelId": 4,
+    "chapterNo": 1,
+    "levelNo": 4,
+    "disasterName": "Gempa Bumi",
+    "name": "Gedung Bertingkat",
+    "timeLimitSec": 210,
+    "difficulty": 4,
+    "focus": "Tangga darurat vs lift; larangan menggunakan lift saat gempa; evakuasi vertikal"
+  }
+]

@@ -1,0 +1,25 @@
+{
+    "name": "SiagaBencana.Editor",
+    "rootNamespace": "SiagaBencana.Editor",
+    "references": [
+        "SiagaBencana.Core",
+        "SiagaBencana.Data",
+        "SiagaBencana.Gameplay",
+        "SiagaBencana.UI",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "Unity.AI.Navigation",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
